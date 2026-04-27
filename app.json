@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Lighthouse",
+    "slug": "lighthouse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lighthouse",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.demo.lighthouse"
+    },
+    "android": {
+      "package": "com.demo.lighthouse",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
